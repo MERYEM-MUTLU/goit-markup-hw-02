@@ -1,0 +1,44 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 220vh;
+  left: auto;
+  top: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  order: inherit;
+  flex-grow: inherit;
+  border-bottom: #ffffff;
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+header {
+    display: block;
+    position: relative;
+    width: 1250px;
+    height: 50px;
+}
+.nav {
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+}
+.nav>.logo {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+}
